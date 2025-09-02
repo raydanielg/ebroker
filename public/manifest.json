@@ -1,0 +1,83 @@
+{
+  "name": "eBroker",
+  "short_name": "eBroker",
+  "description": "Empower Your Real Estate Business",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#087c7c",
+  "background_color": "#f5f5f4",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Properties",
+      "url": "/en-new/properties"
+    },
+    {
+      "name": "Profile",
+      "url": "/en-new/user/dashboard"
+    }
+  ],
+  "scope": "/",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "realestate", "brokerage"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "screenshots": [
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "eBroker Home Screen"
+    }
+  ],
+  "capture_links": "existing-client-navigate",
+  "handle_links": "auto",
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "id": "ebroker-pwa",
+  "file_handlers": [],
+  "protocol_handlers": []
+}
